@@ -19,8 +19,8 @@ def toit2(x, niveau):
     # trait horizontal
     rue.line_width = 10
     rue.line_cap = "round"
-    trait(x,y,x+160,y)
-    #rue.stroke_line(x, y, x+160, y)
+    trait(x-80,y,x+80,y)
+    
 
     rue.line_width = 1
     rue.line_cap = "butt"
